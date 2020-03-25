@@ -1809,11 +1809,15 @@ Responsive
 @media screen and (max-width: 768px) {
 	.hr-img {
 	  grid-template-columns: 1fr;
+	  height: auto;
+      width: 50%;
 	}
   }
   
   @media screen and (max-width: 500px) {
 	.hr-img {
 	  grid-template-columns: 1fr;
+	  height: auto;
+      width: 50%;
 	}
   }
