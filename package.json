@@ -1,0 +1,11 @@
+{
+  "name": "lyricsearch_landing",
+  "version": "1.0.0",
+  "description": "7 Days of Code Challenge | Day 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nasir Watts",
+  "license": "MIT"
+}
