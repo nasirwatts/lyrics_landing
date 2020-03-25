@@ -1,13 +1,4 @@
-/*=================================
------------------------------------
-  SolMusic HTML Template
-  Version: 1.0
- ---------------------------------
- =================================*/
 
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
@@ -1449,7 +1440,9 @@ Responsive
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.hr-img {
-		display: none;
+		display: block;
+		max-width: 500px;
+		position: relative;
 	}
 	.slicknav_menu {
 		display: block;
@@ -1585,7 +1578,9 @@ Responsive
 
 @media only screen and (max-width: 767px) {
 	.hr-img {
-		display: none;
+		display: block;
+		max-width: 500px;
+		position: relative;
 	}
 	.slicknav_menu {
 		display: block;
