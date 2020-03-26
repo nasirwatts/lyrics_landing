@@ -24,7 +24,6 @@
   <link href="img/logo.PNG" rel="apple-touch-icon" sizes="96x96" />
   <link href="img/logo.PNG" rel="icon" sizes="96x96" type="image/PNG" />
 	
-
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
  
@@ -207,6 +206,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!-- Footer section end -->
 	
 	<!--====== Javascripts & Jquery ======-->
+
+	<script>
+		$(document).ready(function() {
+		  $("#owl-demo-1").owlCarousel({
+			autoPlay: 3000,
+			items : 1,
+			itemsDesktop : [1199,1],
+			itemsDesktopSmall : [400,1]
+		  });
+		  $("#owl-demo-2").owlCarousel({
+			autoPlay: 3000,
+			items : 3,
+			
+		  });
+		});
+		</script>
 	<script src="js/script.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
